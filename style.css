@@ -1,0 +1,203 @@
+.nav{
+    background-color: rgb(148, 211, 219);
+    overflow: hidden;
+    display:inline-block;
+    /* float: right; */
+    width: 100%;
+}
+.navs{
+    float: right;
+}
+.navs a{
+    /* float: right; */
+    background-color: rgb(87, 123, 134);
+    /* text-align: center; */
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+
+}
+.navs a:hover{
+    background-color: cornflowerblue;
+    color: cornsilk;
+}
+.navs.a.active{
+    background-color: #04AA6D;
+  color: white;
+}
+.logo{
+    top: 0%;
+    border-radius: 80px;
+    float: left;
+
+}
+.left div{
+    line-height: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.logo img{
+    width: 120px;
+    /* margin-left: -50%; */
+    /* float: left; */
+    border-radius: 80px;
+}
+.song{
+    display: inline-block;
+    margin-top: 3%;
+    margin-left: 40%;
+    font-size: 50px;
+    color: cornflowerblue;
+}
+.xongs{
+   
+    border-top: 2px dotted rgb(5, 5, 5);
+    border-bottom: 1px dotted rgb(5, 5, 5);
+    margin-top: -4%;
+    font-size: 30px;
+    position: absolute;
+    /* margin-left: %; */
+}
+.xong{
+    width: 49%;
+
+    float: left;
+   text-align: justify;
+    /* margin-left: 3%; */
+  
+    /* /* align-items: center; */
+} 
+
+.xong1 {
+    width: 49%;
+    text-align: justify;
+    margin-right: .5%;
+     float: right;
+    /* margin-top: 10%;
+    font-size: 30px; */
+    /* align-items: center; */
+    /* position: absolute; */
+}
+.vl{
+    border-left: 3px solid black;
+    height: 320px;
+   position: absolute;
+    /* left: 20px; /*/
+    margin-left: 49.7%;
+    margin-top: -22.5%;
+}
+.singers{
+    position: relative;
+    /* margin-left: 40%; */
+    font-size: 45px;
+    margin-top: 23%;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    width: 23%;
+    animation-iteration-count: infinite;
+    color: aliceblue;
+    
+}
+@keyframes example {
+    /* from{background-color: cadetblue;}
+    to{background-color: chartreuse;} */
+    0%   {background-color:rgb(235, 194, 62); left:400px; top:0px;}
+    25%  {background-color:rgb(87, 23, 26); left:800px; top:0px;}
+    50%  {background-color:blue; left:800px; top:200px;}
+    75%  {background-color:green; left:400px; top:200px;}
+    100% {background-color:red; left:400px; top:0px;}
+    
+}
+.names{
+    margin-top: 15%;
+    margin-left: 37%;
+    font-size: 40px;
+
+}
+
+.Mohit{
+    /* float: left;
+    margin-left: -12%; */
+    width: 100%;
+    height:500px;
+}
+.Rahman{
+  /* float: right; */
+  width: 100%;
+  height: 500px;
+  /* margin-right: 2%; */
+}
+.Arjit{
+/* float: left;
+margin-top: 7%;
+/* margin-left: -12%;  */
+width: 100%;
+height:500px;
+}
+.Shreya{
+    /* float: right; */
+    /* margin-top: 1%; */
+    width: 100%;
+  height: 500px;
+  /* margin-right: 2%; */
+}
+.Alka{
+ /* float: left; */
+ /* margin-top: 1%; */
+/* margin-left: 2%; */
+width: 100%;
+height:500px;
+}
+.Asha{
+ /* float: right; */
+
+ /* margin-top: 1%; */
+ width: 100%;
+height: 500px;
+/* margin-right: 2%; */
+}
+.Udit{
+ /* float: left; */
+ /* margin-top: 1%; */
+ /* margin-left: 2%; */
+ width: 100%;
+ height:500px;
+}
+.Lata{
+  /* float: right; */
+  /* margin-top: 1%; */
+    width: 100%;
+  height: 500px;
+  /* margin-right: 2%; */
+}
+.Sonu{
+  /* float: left; */
+  /* margin-top: 1%; */
+/* margin-left: 2%; */
+width: 100%;
+height:500px;
+}
+.Shaan{
+  /* float: right; */
+  /* margin-top: 1%; */
+    width: 100%;
+  height: 500px;
+  /* margin-right: 2%; */
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto ;
+    /* grid-template-rows:50% 50% 10% 10% 50% 10% 50% 10%  50% 10%; */
+    justify-content: space-evenly;
+    padding: 20px 20px;
+   
+    grid-column-gap:50px;
+
+
+
+}
+.grid-s1{
+    pad: 30px;
+}
